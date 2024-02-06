@@ -10,4 +10,4 @@ import pandas as pd
 
 #collecting the data until 2024 and saves as csv
 df = bs4_scraper.collecting_results(2024)
-pd.df.to_csv('raw_swertres_results.csv')
+df.to_csv('raw_swertres_results.csv')
